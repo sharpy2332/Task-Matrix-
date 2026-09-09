@@ -11,7 +11,7 @@ jobs:
         with:
           distribution: 'zulu'
           java-version: '17'
-      - name: Build APK with system gradle
+      - name: Build APK
         run: gradle assembleDebug -x kspDebugKotlin -Djava.awt.headless=true --no-daemon
       - uses: actions/upload-artifact@v4
         with:
