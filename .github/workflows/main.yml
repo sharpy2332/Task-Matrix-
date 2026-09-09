@@ -11,11 +11,10 @@ jobs:
         with:
           distribution: 'zulu'
           java-version: '17'
-      - name: Make gradlew executable
-        run: chmod +x ./gradlew
       - name: Build APK
-        run: ./gradlew assembleDebug
+        run: gradle assembleDebug
       - uses: actions/upload-artifact@v4
         with:
           name: debug-apk
           path: app/build/outputs/apk/debug/app-debug.apk
+          
