@@ -11,8 +11,8 @@ jobs:
         with:
           distribution: 'zulu'
           java-version: '17'
-      - name: Build APK
-        run: gradle assembleDebug -x kspDebugKotlin -Djava.awt.headless=true --no-daemon
+      - name: Build APK bypassing custom signing
+        run: gradle assembleDebug -x kspDebugKotlin -Pandroid.injected.signing.store.file= -Djava.awt.headless=true --no-daemon
       - uses: actions/upload-artifact@v4
         with:
           name: debug-apk
