@@ -1,0 +1,6 @@
+{
+  "name": "Eisenhower Task Matrix",
+  "description": "Minimalist productivity task manager inspired by TickTick featuring Eisenhower matrix prioritization and 3D workload analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

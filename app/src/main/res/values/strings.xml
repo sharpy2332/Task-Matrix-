@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Eisenhower Task Matrix</string>
+    <string name="tab_matrix">Matrix</string>
+    <string name="tab_analytics">Analytics</string>
+    <string name="quadrant_do_first">Do First</string>
+    <string name="quadrant_schedule">Schedule</string>
+    <string name="quadrant_delegate">Delegate</string>
+    <string name="quadrant_eliminate">Eliminate</string>
+    <string name="quadrant_do_first_desc">Urgent &amp; Important</string>
+    <string name="quadrant_schedule_desc">Not Urgent &amp; Important</string>
+    <string name="quadrant_delegate_desc">Urgent &amp; Not Important</string>
+    <string name="quadrant_eliminate_desc">Not Urgent &amp; Not Important</string>
+    <string name="add_task_title">Create New Task</string>
+    <string name="edit_task_title">Edit Task</string>
+    <string name="task_name_hint">What needs to be done?</string>
+    <string name="category_label">Category</string>
+    <string name="urgency_label">Urgency</string>
+    <string name="importance_label">Importance</string>
+    <string name="weightage_label">Weightage Score</string>
+    <string name="calculated_score">Urgency × Importance</string>
+    <string name="save_task_button">Save Task</string>
+    <string name="delete_task_button">Delete</string>
+    <string name="no_tasks_quadrant">No tasks in this quadrant</string>
+    <string name="analytics_overview">Workload Analytics</string>
+    <string name="category_weightage_title">Pending Weightage by Category</string>
+    <string name="quadrant_distribution_title">Quadrant Workload Distribution</string>
+    <string name="total_weightage">Total Weightage</string>
+    <string name="pending_tasks">Pending Tasks</string>
+    <string name="completed_tasks">Completed Tasks</string>
+    <string name="avg_urgency">Avg Urgency</string>
+    <string name="avg_importance">Avg Importance</string>
+</resources>
