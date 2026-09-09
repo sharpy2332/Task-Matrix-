@@ -11,9 +11,11 @@ jobs:
         with:
           distribution: 'zulu'
           java-version: '17'
+      - name: Force Headless
+        run: |
+          echo "org.gradle.jvmargs=-Djava.awt.headless=true" >> gradle.properties
+          echo "kotlin.daemon.jvm.options=-Djava.awt.headless=true" >> gradle.properties
       - name: Build APK
-        env:
-          _JAVA_OPTIONS: "-Djava.awt.headless=true"
         run: gradle assembleDebug --no-daemon
       - uses: actions/upload-artifact@v4
         with:
